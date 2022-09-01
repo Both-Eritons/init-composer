@@ -1,0 +1,28 @@
+{
+    "name": "both-eritons/phpfig001",
+    "description": "começando com o composer",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "eriton",
+            "email": "botheritons2005@gmail.com",
+            "role": "developer",
+            "homepage": "https://eriton.site"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        },
+        "files": [
+            "src/Config.php"
+        ]
+    },
+    "require": {
+        "phpmailer/phpmailer": "6.0.*"
+    }
+}
